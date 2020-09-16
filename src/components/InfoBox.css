@@ -1,0 +1,38 @@
+.infoBox {
+    flex: 1;
+    transition: all 0.3s ease-in-out !important;
+    cursor: pointer;
+    border-top:5px solid transparent
+  }
+  
+  .infoBox:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .infoBox--selected {
+    border-top: 5px solid greenyellow;
+    /* transition: all 0.3s ease-in-out; */
+  }
+  
+  .infoBox--selected.infoBox--red {
+    border-color: red;
+  }
+  
+  .infoBox__cases--green {
+    color: lightgreen !important;
+  }
+  
+  .infoBox__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .infoBox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+  }
+  
