@@ -2,7 +2,8 @@
     flex: 1;
     transition: all 0.3s ease-in-out !important;
     cursor: pointer;
-    border-top:5px solid transparent
+    border-top:5px solid transparent;
+    margin-bottom:20px
   }
   
   .infoBox:not(:last-child) {

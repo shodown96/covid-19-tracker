@@ -37,6 +37,7 @@ function App() {
       setCountryInfo(data)
       setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
       setMapZoom(4);
+      console.log(data)
     })
   }
   // console.log(countryInfo)
