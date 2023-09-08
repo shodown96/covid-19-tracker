@@ -30,7 +30,7 @@ function App() {
       ? "https://disease.sh/v3/covid-19/all"
       : `https://disease.sh/v3/covid-19/countries/${countryCode}`;
 
-    await fetch(url)
+    await fetch(url, { mode: 'no-cors' })
     .then(response => response.json())
     .then(data =>{
       setInputCountry(countryCode)
